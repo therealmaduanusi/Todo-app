@@ -23,10 +23,12 @@ function addTask() {
       taskText.style.display = "none";
       editInput.value = taskText.textContent;
       editInput.style.display = "inline-block";
+      deleteBtn.style.display = "none"
     } else {
       taskText.textContent = editInput.value;
       editInput.style.display = "none";
       taskText.style.display = "inline-block";
+      deleteBtn.style.display = "inline-block"
     }
   };
   
